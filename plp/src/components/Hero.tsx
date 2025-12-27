@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { lazy } from 'react';
 import { MapPin, Calendar } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
 
@@ -20,6 +20,7 @@ export const Hero: React.FC = () => {
                 <img
                   src={import.meta.env.BASE_URL + 'jeff.png'}
                   alt="Jeffrey Peresores"
+                  loading="lazy"
                   className="w-full h-full object-cover"
                 />
               </div>
