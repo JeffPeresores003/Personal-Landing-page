@@ -25,7 +25,7 @@ export const AboutView: React.FC = () => {
             <div className="flex justify-center">
               <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-indigo-500/30">
                 <img
-                  src="/jeff.png"
+                  src={import.meta.env.BASE_URL + 'jeff.png'}
                   alt="Jeffrey Peresores"
                   className="w-full h-full object-cover"
                 />
