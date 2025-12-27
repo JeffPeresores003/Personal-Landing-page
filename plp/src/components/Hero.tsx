@@ -39,6 +39,21 @@ export const Hero: React.FC = () => {
             <p className="text-lg text-gray-400 max-w-lg leading-relaxed">
               Passionate about crafting innovative digital solutions. Specialized in mobile and web development with a keen eye for intuitive user interfaces.
             </p>
+            <p className="text-lg italic text-gray-400 border-l-4 border-indigo-500 pl-4">
+                Motto: 
+              </p>
+              <p className="text-lg italic text-gray-400 border-l-4 border-indigo-500 pl-4">
+                "One Click, Fix This!!"
+              </p>
+              <p className="text-lg italic text-gray-400 border-l-4 border-indigo-500 pl-4">
+                "Ipa AI rana!"
+              </p>
+              <p className="text-lg italic text-gray-400 border-l-4 border-indigo-500 pl-4">
+                "Kung kaya ng iba, edi SANAOL!!"
+              </p>
+              <p className="text-lg italic text-gray-400 border-l-4 border-indigo-500 pl-4">
+                "To become a Fullstack Master you need to invest in TAE, Time And Effort!"
+              </p>
 
             {/* Personal Details */}
             <div className={`${theme === 'dark' ? 'glass-dark' : 'glass'} p-10 rounded-3xl space-y-6`}>
