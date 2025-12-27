@@ -55,7 +55,6 @@ export const AboutView: React.FC = () => {
                 <div className="flex items-center gap-3 text-gray-300">
                   <Mail className="w-5 h-5 text-indigo-400" />
                   <span>jeffrey.peresores@bisu.edu.ph</span>
-                  <span>peresoresjeffrey48@gmail.com</span>
                 </div>
               </div>
 

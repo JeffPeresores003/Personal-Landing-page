@@ -18,7 +18,7 @@ export const Hero: React.FC = () => {
             >
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white/20">
                 <img
-                  src="/jeff.png"
+                  src={import.meta.env.BASE_URL + 'jeff.png'}
                   alt="Jeffrey Peresores"
                   className="w-full h-full object-cover"
                 />

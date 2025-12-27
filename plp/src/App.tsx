@@ -46,9 +46,6 @@ const App: React.FC = () => {
                       <a href="mailto:jeffrey.peresores@bisu.edu.ph" className="text-lg text-gray-200 hover:text-indigo-400 transition-colors block">
                         jeffrey.peresores@bisu.edu.ph
                       </a>
-                      <a href="mailto:peresoresjeffrey48@gmail.com" className="text-lg text-gray-200 hover:text-indigo-400 transition-colors block">
-                        peresoresjeffrey48@gmail.com
-                      </a>
                     </div>
                     <div>
                       <p className="text-sm text-gray-400 mb-2">Location</p>
