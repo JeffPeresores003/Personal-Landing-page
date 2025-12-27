@@ -5,6 +5,7 @@
   import path from 'path';
 
   export default defineConfig({
+    base: '/Personal-Landing-page/',
     plugins: [react(), tailwindcss()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
